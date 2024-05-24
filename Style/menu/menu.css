@@ -1,0 +1,72 @@
+@import url(font.css);
+
+.menu-title {
+  margin-top: 144px;
+  margin-bottom: 64px;
+  color: rgb(255, 255, 255);
+  font-family: 'MM';
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-content__box {
+  background: rgb(183, 0, 0);
+  width: 15.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	justify-content: center;
+}
+
+.menu-content__percent {
+  font-size: 94px;
+}
+
+.menu-box__title {
+  display: flex;
+  align-items: center;
+  margin-top: 89px;
+  margin-bottom: 84px;
+  color: rgb(255, 255, 255);
+  font-family: 'MM';
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.menu-box__fire {
+  margin-left: 3px;
+  height: 18px;
+}
+
+
+.menu-content__food {
+  width: 15.5%;
+  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu-food__title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'MM';
+  font-size: 20px;
+  line-height: 24px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+
+}
+
+.menu-food__top {
+	margin-top: -110px;
+}
+.menu-food__bottom {
+	margin-bottom: -110px;
+}

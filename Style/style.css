@@ -1,0 +1,204 @@
+@import url(font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(15, 15, 17);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.nav-image {
+    max-width: 169px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list__link {
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.nav-logo__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-left__title {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 312px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 56px;
+}
+
+.header-left__image {
+    max-width: 184px;
+    width: 100%;
+    position: absolute;
+    top: 175px;
+    left: -40px;
+}
+
+.header-left__phone {
+    margin-top: 250px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.header-left__email {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-left: 50px;
+}
+
+.header-right {
+    position: relative;
+}
+
+.header-right__img {
+    width: 100%;
+    height: 600px;
+}
+
+.header-right__dots {
+    position: absolute;
+    right: -160px;
+    bottom: -64px;
+}
+
+.header-info__red {
+    position: absolute;
+    left: 40px;
+    top: 355px;
+    max-width: 355px;
+    width: 100%;
+}
+
+.header-right__box {
+    position: absolute;
+    top: 355px;
+    left: 50px;
+    margin-left: 54px;
+}
+
+.header-box__title {
+    max-width: 220px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 37px;
+    margin-bottom: 32px;
+}
+
+.header-box__text {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 15px;
+    line-height: 21px;
+    max-width: 231px;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.header-box__item {
+    display: flex;
+}
+
+.header-info__price {
+    color: rgb(255, 255, 255);
+    font-family: 'MB';
+    font-size: 23px;
+    line-height: 28px;
+
+}
+
+.header-info__img {
+    width: 42px;
+}
+
+/*  **** Media start **** */
+
+@media (max-width: 1400px) {
+
+    .header-content{
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .header-right__dots{
+        position: absolute;
+        right: -50px;
+        bottom: -64px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 1300px) {
+
+    .nav {
+        flex-wrap: wrap;
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+    .nav-image{
+        margin-right: 30px;
+    }
+
+    .header-right__dots{
+        position: absolute;
+        right: 10px;
+        bottom: -64px;
+    }
+    
+  }
+  
+
+
+
+/*  **** Media end **** */

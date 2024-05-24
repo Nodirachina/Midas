@@ -1,0 +1,69 @@
+@import url(font.css);
+
+.footer {
+    margin-top: 169px;
+    padding: 0 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left__image {
+    max-width: 135px;
+    width: 100%;
+    height: 24px;
+    margin-right: 118px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-list__link {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+}
+
+.footer-info__phone {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 29px;
+}
+
+.footer-info__email {
+    color: rgb(255, 255, 255);
+    font-family: 'MM';
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+}
+
+
+/*  **** Media start **** */
+
+@media (max-width: 1200px) {
+
+    .footer {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+/*  **** Media end **** */
